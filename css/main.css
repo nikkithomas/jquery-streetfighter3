@@ -1,0 +1,79 @@
+body{
+	background-color:black;
+}
+.main{
+	background-color:white;
+	margin-top: 110px;
+	padding-left: 100px;
+	min-width: 1200px;
+	height: 500px;
+}
+.ryu{
+	float:left;
+}
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool{
+	width: 659px;
+	height: 494px;
+}
+.ryu-ready, .ryu-throwing, .ryu-cool{
+	display: none;
+}
+
+.ryu-ready{
+	background-image: url('http://i326.photobucket.com/albums/k427/thomnikki/ryu-ready-position_zps65c76c44.gif');
+}
+.ryu-still{
+	background-image: url('http://i326.photobucket.com/albums/k427/thomnikki/ryu-standing-still_zpsdd772696.png')
+}
+.ryu-throwing{
+	background-image: url('http://i326.photobucket.com/albums/k427/thomnikki/ryu-throwing-hadouken_zps4e808840.png');
+}
+
+.ryu-cool{ 
+	background-image: url("http://i326.photobucket.com/albums/k427/thomnikki/ryu-cool_zps11c0a2a0.gif");
+}
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool{
+	background-repeat:no-repeat;
+}
+.hadouken{
+	background-image: url("http://i326.photobucket.com/albums/k427/thomnikki/hadouken_zps2b04d6e7.gif");
+	width: 156px;
+	height: 90px;
+	float: left;
+	top: 167px;
+	left: -212px;
+	position: relative;
+	display: none;
+}
+
+.instructions{
+	position: absolute;
+	height: 400px;
+	width: 550px;
+	float: right;
+	margin-left: 600px;
+	margin-right: 75px;
+	margin-top: 75px;
+	font-family: Georgia;
+	font-size: 48px;
+	text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+.part-one{
+	padding-top: 15px;
+}
+
+.part-two{
+	padding-top: 65px;
+}
+
+.name, .part-one, .part-two{
+	display: none;
+}
+
+.name{
+	background-image: url('http://media-cache-ak0.pinimg.com/236x/38/a2/a0/38a2a0bc4281ebb3c6659a4daa2de184.jpg');
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 600px;
+}
