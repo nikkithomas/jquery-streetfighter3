@@ -74,7 +74,11 @@ $(document).keydown(function(e){
 
 
 function playKungfu(){
+<<<<<<< HEAD
 	$("#kungfu")[0].volume = 0.5;
+=======
+		$("#kungfu")[0].volume =.5;
+>>>>>>> FETCH_HEAD
 		$("#kungfu")[0].load();
 		$("#kungfu")[0].play();
 
