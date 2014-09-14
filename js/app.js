@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	doIntro();
+	playKungfu();
 
 	$(".ryu").mouseenter(function(){
 		$(".ryu-still").hide();
@@ -73,10 +73,10 @@ $(document).keydown(function(e){
 
 
 
-function doIntro(){
+function playKungfu(){
+		$("#kungfu")[0].volume =.5;
 		$("#kungfu")[0].load();
 		$("#kungfu")[0].play();
-		$("#kungfu")[0].volume = .5;
 
 }
 
